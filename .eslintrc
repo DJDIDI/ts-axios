@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "@tencent/eslint-config-tencent"
+  ],
+  "parser": "@typescript-eslint/parser"
+}
