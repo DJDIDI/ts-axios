@@ -2,5 +2,9 @@
   "extends": [
     "@tencent/eslint-config-tencent"
   ],
-  "parser": "@typescript-eslint/parser"
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "no-param-reassign": 0,
+    "no-undef": "off"
+  }
 }
