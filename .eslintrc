@@ -5,6 +5,8 @@
   "parser": "@typescript-eslint/parser",
   "rules": {
     "no-param-reassign": 0,
-    "no-undef": "off"
+    "no-undef": "off",
+    "no-unused-vars": ["error", { "args": "none" }],
+    "no-underscore-dangle": "off"
   }
 }
